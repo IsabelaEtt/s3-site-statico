@@ -3,7 +3,7 @@ name: Deploy to AWS with Terraform
 on:
   push:
     branches:
-      - main  # O workflow será acionado quando houver um push na branch main
+      - main2  # O workflow será acionado quando houver um push na branch main
 
 jobs:
   terraform:
